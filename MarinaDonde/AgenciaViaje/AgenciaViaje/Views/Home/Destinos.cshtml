@@ -1,0 +1,141 @@
+﻿
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" asp-action="Index">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" asp-action="Destinos">Destinos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" asp-action="Promocoes">Promoções</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" asp-action="Create" asp-controller="Contatos">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" asp-action="Adm">Administração</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section >
+    <h1>Conheça os Destinos</h1>
+    <div class="box">
+        <a asp-action="Create" asp-controller="Contatos">
+            <div class="destinos">
+               <img src="~/imagens/arraial2.jpg" alt="Arraial Do Cabo" class="photo">
+               <div>
+                   <h3>Arraial Do Cabo - RJ</h3>
+                   <p>5 diárias </p>
+                   <p>(Hospedagem + passagem)</p>
+                   <p>R$ 1999,00</p>
+               </div>
+            </div>
+        </a>
+        <a asp-action="Create" asp-controller="Contatos">
+            <div class="destinos">
+               <img src="~/imagens/pgalinhas1.jpg" alt="Porto de Galinhas" class="photo">
+               <div>
+                   <h3>Porto de Galinhas - PE</h3>
+                   <p>5 diárias </p>
+                   <p>(Hospedagem + passagem)</p>
+                   <p>R$ 2399,00</p>
+               </div>
+            </div>
+        </a>
+        <a asp-action="Create" asp-controller="Contatos">
+            <div class="destinos">
+               <img src="~/imagens/jericoacoara1.jpg" alt="Jericoacoara" class="photo">
+               <div>
+                   <h3>Jericoacoara - CE</h3>
+                   <p>5 diárias </p>
+                   <p>(Hospedagem + passagem)</p>
+                   <p>R$ 2799,00</p>
+               </div>
+            </div>
+        </a>
+        <a asp-action="Create" asp-controller="Contatos">
+            <div class="destinos">
+               <img src="~/imagens/rio2.jpg" alt="Rio de Janeiro" class="photo">
+               <div>
+                   <h3>Rio de Janeiro - RJ</h3>
+                   <p>5 diárias </p>
+                   <p>(Hospedagem + passagem)</p>
+                   <p>R$ 1299,00</p>
+               </div>
+            </div>
+        </a>
+        <a asp-action="Create" asp-controller="Contatos">
+            <div class="destinos">
+               <img src="~/imagens/sp3.jpg" alt="São Paulo" class="photo">
+               <div>
+                   <h3>São Paulo - SP</h3>
+                   <p>5 diárias </p>
+                   <p>(Hospedagem + passagem)</p>
+                   <p>R$ 1099,00</p>
+               </div>
+            </div>
+        </a>
+        <a asp-action="Create" asp-controller="Contatos">
+            <div class="destinos">
+               <img src="~/imagens/poa1.jpg" alt="Porto Alegre" class="photo">
+               <div>
+                   <h3>Porto Alegre - RS</h3>
+                   <p>5 diárias </p>
+                   <p>(Hospedagem)</p>
+                   <p>R$ 699,00</p>
+               </div>
+            </div>
+        </a>
+        <a asp-action="Create" asp-controller="Contatos">
+            <div class="destinos">
+               <img src="~/imagens/toronto1.jpg" alt="Toronto" class="photo">
+               <div>
+                   <h3>Toronto - Canadá</h3>
+                   <p>5 diárias </p>
+                   <p>(Hospedagem + passagem)</p>
+                   <p>R$ 8999,00</p>
+               </div>
+            </div>
+        </a>
+        <a asp-action="Create" asp-controller="Contatos">
+            <div class="destinos">
+               <img src="~/imagens/ny2.jpg" alt="New York" class="photo">
+               <div>
+                   <h3>New York - EUA</h3>
+                   <p>5 diárias </p>
+                   <p>(Hospedagem + passagem)</p>
+                   <p>R$ 8599,00</p>
+               </div>
+            </div>
+        </a>
+        <a asp-action="Create" asp-controller="Contatos">
+            <div class="destinos">
+               <img src="~/imagens/cairo1.jpg" alt="Cairo" class="photo">
+               <div>
+                   <h3>Cairo - Egito</h3>
+                   <p>5 diárias </p>
+                   <p>(Hospedagem + passagem)</p>
+                   <p>R$ 7099,00</p>
+               </div>
+            </div>
+        </a>
+    </div>
+</section>
+  <footer>
+    <p class="rodape bg-primary">Contato: 0800 0000</p>
+    <p class="rodape bg-primary">2021 Agência Viaje! - Todos os direitos reservados. </p>
+  </footer> 
+  
+</body>
+
