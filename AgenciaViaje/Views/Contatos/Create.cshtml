@@ -1,0 +1,95 @@
+﻿@model AgenciaViaje.Models.Contato
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" asp-action="Index" asp-controller="Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" asp-action="Destinos" asp-controller="Home">Destinos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" asp-action="Promocoes" asp-controller="Home">Promoções</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" asp-action="Create" asp-controller="Contatos">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" asp-action="Adm" asp-controller="Home">Administração</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section>
+    <h1>Entre em contato:</h1>
+
+    <div class="rowform">
+        <div class="form">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="input-group mb-3">
+                <span asp-validation-for="Nome" class="input-group-text" id="inputGroup-sizing-default">Nome:</span>
+                <input asp-for="Nome" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"/>
+                
+            </div>
+            <div class="input-group mb-3">
+                <span asp-validation-for="Telefone" class="input-group-text" id="inputGroup-sizing-default">Telefone:</span>
+                <input asp-for="Telefone" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"/>
+                
+            </div>
+            <div class="input-group mb-3">
+                <span asp-validation-for="Email" class="input-group-text" id="inputGroup-sizing-default">Email:</span>
+                <input asp-for="Email" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"/>
+                
+            </div>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Escolha seu destino</option>
+                <option value="1">Arraial do Cabo - RJ</option>
+                <option value="2">Belo Horizonte - MG</option>
+                <option value="3">Bonito - MS</option>
+                <option value="4">Cairo - Egito</option>
+                <option value="5">Florianópolis - SC</option>
+                <option value="6">Fortaleza - CE</option>
+                <option value="7">Gramado - RS</option>
+                <option value="8">Jericoacoara - CE</option>
+                <option value="9">Manaus - AM</option>
+                <option value="10">New York - EUA</option>
+                <option value="11">Porto Alegre - RS</option>
+                <option value="12">Porto de Galinhas - PE</option>
+                <option value="13">Rio de Janeiro - RJ</option>
+                <option value="14">São Paulo - SP</option>
+                <option value="15">Toronto - Canadá</option>
+            </select>
+            <div class="d-grid gap-2">
+                <input type="submit" value="Enviar" class="btn btn-primary"/>
+            </div>
+        </form>
+        </div>
+    </div>
+  </section>
+  <img src="~/imagens/banner1.jpg" alt="Monumentos Mundiais" class="banner" id="contatoimg">
+  
+  <footer>
+     <p class="rodape bg-primary">Contato: 0800 0000</p>
+    <p class="rodape bg-primary">2022 Agência Viaje! - Todos os direitos reservados.</p>
+  </footer> 
+  
+</body>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

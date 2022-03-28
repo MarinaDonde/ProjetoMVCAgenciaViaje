@@ -1,0 +1,120 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AgenciaViaje
+build_property.RootNamespace = AgenciaViaje
+build_property.ProjectDir = C:\Users\Marina\Desktop\GitHub\Recode-EntregaIndividual2-MCVBootstrapCSharp-main\MarinaDonde\AgenciaViaje\AgenciaViaje\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Marina\Desktop\GitHub\Recode-EntregaIndividual2-MCVBootstrapCSharp-main\MarinaDonde\AgenciaViaje\AgenciaViaje
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Marina/Desktop/GitHub/Recode-EntregaIndividual2-MCVBootstrapCSharp-main/MarinaDonde/AgenciaViaje/AgenciaViaje/Views/Clientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/GitHub/Recode-EntregaIndividual2-MCVBootstrapCSharp-main/MarinaDonde/AgenciaViaje/AgenciaViaje/Views/Clientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/GitHub/Recode-EntregaIndividual2-MCVBootstrapCSharp-main/MarinaDonde/AgenciaViaje/AgenciaViaje/Views/Clientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/GitHub/Recode-EntregaIndividual2-MCVBootstrapCSharp-main/MarinaDonde/AgenciaViaje/AgenciaViaje/Views/Clientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/GitHub/Recode-EntregaIndividual2-MCVBootstrapCSharp-main/MarinaDonde/AgenciaViaje/AgenciaViaje/Views/Clientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/GitHub/Recode-EntregaIndividual2-MCVBootstrapCSharp-main/MarinaDonde/AgenciaViaje/AgenciaViaje/Views/Contatos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/GitHub/Recode-EntregaIndividual2-MCVBootstrapCSharp-main/MarinaDonde/AgenciaViaje/AgenciaViaje/Views/Contatos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/GitHub/Recode-EntregaIndividual2-MCVBootstrapCSharp-main/MarinaDonde/AgenciaViaje/AgenciaViaje/Views/Contatos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/GitHub/Recode-EntregaIndividual2-MCVBootstrapCSharp-main/MarinaDonde/AgenciaViaje/AgenciaViaje/Views/Contatos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/GitHub/Recode-EntregaIndividual2-MCVBootstrapCSharp-main/MarinaDonde/AgenciaViaje/AgenciaViaje/Views/Contatos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/GitHub/Recode-EntregaIndividual2-MCVBootstrapCSharp-main/MarinaDonde/AgenciaViaje/AgenciaViaje/Views/Destinos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGlub3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/GitHub/Recode-EntregaIndividual2-MCVBootstrapCSharp-main/MarinaDonde/AgenciaViaje/AgenciaViaje/Views/Destinos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGlub3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/GitHub/Recode-EntregaIndividual2-MCVBootstrapCSharp-main/MarinaDonde/AgenciaViaje/AgenciaViaje/Views/Destinos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGlub3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/GitHub/Recode-EntregaIndividual2-MCVBootstrapCSharp-main/MarinaDonde/AgenciaViaje/AgenciaViaje/Views/Destinos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGlub3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/GitHub/Recode-EntregaIndividual2-MCVBootstrapCSharp-main/MarinaDonde/AgenciaViaje/AgenciaViaje/Views/Destinos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGlub3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/GitHub/Recode-EntregaIndividual2-MCVBootstrapCSharp-main/MarinaDonde/AgenciaViaje/AgenciaViaje/Views/Home/Adm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/GitHub/Recode-EntregaIndividual2-MCVBootstrapCSharp-main/MarinaDonde/AgenciaViaje/AgenciaViaje/Views/Home/CadastrarCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYWRhc3RyYXJDbGllbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/GitHub/Recode-EntregaIndividual2-MCVBootstrapCSharp-main/MarinaDonde/AgenciaViaje/AgenciaViaje/Views/Home/CadastrarDestino.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYWRhc3RyYXJEZXN0aW5vLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/GitHub/Recode-EntregaIndividual2-MCVBootstrapCSharp-main/MarinaDonde/AgenciaViaje/AgenciaViaje/Views/Home/Destinos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXN0aW5vcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/GitHub/Recode-EntregaIndividual2-MCVBootstrapCSharp-main/MarinaDonde/AgenciaViaje/AgenciaViaje/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/GitHub/Recode-EntregaIndividual2-MCVBootstrapCSharp-main/MarinaDonde/AgenciaViaje/AgenciaViaje/Views/Home/Promocoes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9tb2NvZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/GitHub/Recode-EntregaIndividual2-MCVBootstrapCSharp-main/MarinaDonde/AgenciaViaje/AgenciaViaje/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/GitHub/Recode-EntregaIndividual2-MCVBootstrapCSharp-main/MarinaDonde/AgenciaViaje/AgenciaViaje/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/GitHub/Recode-EntregaIndividual2-MCVBootstrapCSharp-main/MarinaDonde/AgenciaViaje/AgenciaViaje/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/GitHub/Recode-EntregaIndividual2-MCVBootstrapCSharp-main/MarinaDonde/AgenciaViaje/AgenciaViaje/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/GitHub/Recode-EntregaIndividual2-MCVBootstrapCSharp-main/MarinaDonde/AgenciaViaje/AgenciaViaje/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mgmz3dpk5p

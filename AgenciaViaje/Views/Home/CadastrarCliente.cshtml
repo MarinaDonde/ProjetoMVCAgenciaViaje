@@ -1,0 +1,81 @@
+﻿<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" asp-action="Index">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" asp-action="Destinos">Destinos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" asp-action="Promocoes">Promoções</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" asp-action="Create" asp-controller="Contatos">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" asp-action="Adm">Administração</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="bg-banner">
+      <section>
+          <h1>Cadastrar Cliente</h1>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">Nome:</span>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">CPF:</span>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">Telefone:</span>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">Endereço:</span>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">Email:</span>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          </div>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Destino</option>
+            <option value="1">Arraial do Cabo - RJ</option>
+            <option value="1">Belo Horizonte - MG</option>
+            <option value="2">Bonito - MS</option>
+            <option value="3">Cairo - Egito</option>
+            <option value="2">Florianópolis - SC</option>
+            <option value="3">Fortaleza - CE</option>
+            <option value="1">Gramado - RS</option>
+            <option value="2">Jericoacoara - CE</option>
+            <option value="3">Manaus - AM</option>
+            <option value="3">New York - EUA</option>
+            <option value="1">Porto Alegre - RS</option>
+            <option value="2">Porto de Galinhas - PE</option>
+            <option value="1">Rio de Janeiro - RJ</option>
+            <option value="2">São Paulo - SP</option>
+            <option value="3">Toronto - Canadá</option>
+          </select>
+      </section>
+  </div>
+
+    <footer>
+        <p class="rodape bg-primary">Contato: 0800 0000</p>
+        <p class="rodape bg-primary">2021 Agência Viaje! - Todos os direitos reservados. </p>
+    </footer> 
+
+</body>

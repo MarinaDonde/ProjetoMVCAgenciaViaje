@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+:root {
+    --cor0: #0818E0;
+    --cor1: #0253F7;
+    --cor2: #028EED;
+    --cor5: rgb(56, 54, 54);
+}
+
+.banner {
+    width: 100vw;
+}
+
+
+.nav-link:hover{
+    background-color: var(--cor0);
+    transition: background .5s;
+}
+
+h1{
+    text-align: center;
+    padding: 40px;
+    color: var(--cor1);
+    font-size: 2em;
+    font-family: 'Readex Pro', sans-serif;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.texto {
+    text-align: justify;
+    font-size: 1.2em;
+    color: var(--cor5);
+    margin: 10px 50px; 
+    
+}
+
+#texto {
+    margin-bottom: 30px;
+    max-width: 1000px;
+}
+
+h3{
+    font-family: 'Readex Pro', sans-serif;
+    color: var(--cor1);
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+.box {
+    margin: auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.destinos {
+    padding: 15px 15px 40px;
+    border: 2px solid var(--cor1);
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.248);
+ }
+
+ a {
+     text-decoration: none;
+     color: var(--cor5);
+ }
+
+ .destinos:hover {
+     background-color:rgba(100, 153, 202, 0.248);
+     transition: background .5s;
+ }
+ 
+ .photo {
+     width: 100%;
+     height: 300px;
+     object-fit: cover;
+ }
+
+ h3 {
+     font-family: 'Readex Pro', sans-serif;
+     color: var(--cor1);
+     text-decoration: none;
+ }
+
+ .promo {
+     text-decoration: line-through;
+     color: red;
+ }
+
+
+
+.bg-banner {
+    background-image: url(../imagens/banner2.jpg);
+    background-size: cover;
+    height: 830px;
+}
+
+
+button {
+    margin: 30px 0px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.467);
+}
+
+.rowform {
+    max-width: 1000px;
+    align-items: center;
+}
+
+.form {
+    margin: 0 50px;
+}
+
+.botoesadm {
+    display: flex;
+    max-width: 1000px;
+}
+
+select {
+    margin-bottom: 20px;
+}
+
+#contatoimg {
+    margin-top: 30px;
+}
+
+
+.btn-warning {
+    margin-top: 80px; 
+}
+
+
+.rodape {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    margin-bottom: 0px;
+}
+
